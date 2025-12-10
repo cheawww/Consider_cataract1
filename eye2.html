@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>คุณไม่เป็นต้อกระจกแล้ว</title>
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="font.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #343a40;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .header {
+      background-color: #343a40;
+      color: white;
+      padding: 10px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header a {
+      color: white;
+      text-decoration: none;
+      padding: 0 15px;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    .header a:hover {
+      color: #007bff;
+    }
+
+    .logo img {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .sitename {
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .navmenu {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
+
+    .navmenu ul {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navmenu ul li {
+      margin: 0 10px;
+      position: relative;
+    }
+
+    .dropdown ul {
+      display: none;
+      position: absolute;
+      background-color: #343a40;
+      border-radius: 5px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+
+    .dropdown:hover ul,
+    .dropdown:focus-within ul {
+      display: block;
+    }
+
+    .dropdown ul li {
+      margin: 0;
+    }
+
+    .dropdown ul li a {
+      padding: 10px 20px;
+      display: block;
+      white-space: nowrap;
+    }
+
+    .btn-getstarted {
+      background-color: #007bff;
+      color: white;
+      border-radius: 50px;
+      padding: 10px 20px;
+      margin-left: 20px;
+      transition: background-color 0.3s;
+    }
+
+    .btn-getstarted:hover {
+      background-color: #0056b3;
+    }
+
+    .container {
+      max-width: 800px;
+      padding: 40px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    h1 {
+      color: #007bff;
+      margin-bottom: 20px;
+      font-size: 2.5em;
+      font-weight: 700;
+    }
+
+    h2 {
+      color: #343a40;
+      margin-top: 30px;
+      font-size: 1.8em;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+      text-align: left;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    li {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+
+    .about-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .about-images img {
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      height: auto;
+    }
+
+    .col-lg-6 {
+      flex: 1 0 45%;
+    }
+  </style>
+</head>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="test.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">ระบบตรวจสอบโรคต้อกระจก(AI)</h1>
+      </a>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <h1>คุณไม่พบภาวะต้อกระจกแล้ว</h1>
+    <p> คุณสุขภาพตาดี</p>
+    <h1>Prediction Result</h1>
+    <p id="prediction">Prediction: </p>
+    <p id="confidence">Confidence: </p>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const prediction = urlParams.get('prediction');
+        const confidence = urlParams.get('confidence');
+
+        document.getElementById('prediction').innerText = `Prediction: ${prediction}`;
+        document.getElementById('confidence').innerText = `Confidence: ${confidence}`;
+    </script>
+
+    <h2>วิธีป้องกันต้อกระจก</h2>
+    <ul>
+      <li>สวมแว่นกันแดดเพื่อปกป้องดวงตาจากรังสี UV</li>
+      <li>งดสูบบุหรี่</li>
+      <li>รับประทานอาหารที่มีสารต้านอนุมูลอิสระ เช่น ผักและผลไม้</li>
+      <li>ตรวจสุขภาพตาเป็นประจำ</li>
+      <li>รักษาสุขภาพร่างกายทั่วไป</li>
+    </ul>
+<!-- 
+    <div class="about-images" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-6">
+        <img src="png/209.jpg" class="img-fluid" alt="Sample Image 1">
+      </div>
+      <div class="col-lg-6">
+        <img src="png/232.jpg" class="img-fluid" alt="Sample Image 2">
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>

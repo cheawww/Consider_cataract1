@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index -ระบบตรวจสอบโรคต้อกระจกโดยใช้ปัญญาประดิษฐ์ (AI)</title>
+  <meta content="Get accurate diagnostics for skin diseases with DermCheck." name="description">
+  <meta content="" name="keywords">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="font.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700" rel="stylesheet">
+  
+  <!-- Favicons -->
+  <link href="png/454.png" rel="icon">
+  <link href="png/454.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #d3dce5;
+    }
+
+    .header {
+      background-color: #343a40;
+      color: rgb(8, 8, 8);
+      padding: 10px 0;
+    }
+
+    .header a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .btn-getstarted {
+      background-color: #007bff;
+      color: white;
+      border-radius: 50px;
+      padding: 10px 20px;
+      margin-left: 20px;
+    }
+
+    .btn-getstarted:hover {
+      background-color: #0056b3;
+    }
+
+    .hero {
+      background-image: url('assets/img/hero-bg-light.webp');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+    }
+
+    .hero h1 span {
+      color: #007bff;
+    }
+
+    .hero .btn-get-started {
+      background-color: #007bff;
+      color: white;
+      border-radius: 50px;
+      padding: 10px 20px;
+      margin-right: 20px;
+    }
+
+    .hero .btn-get-started:hover {
+      background-color: #0056b3;
+    }
+
+    .diagnostics .form-label {
+      color: #212529;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+
+    .container-fluid {
+      max-width: 1200px;
+    }
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="test.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">ระบบตรวจสอบโรคต้อกระจก(AI)</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Cause</a></li>
+          <li><a href="log.html">Login</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="eye1.html">เป็นภาวะต้อกระจก</a></li>
+              <li><a href="eye2.html">ไม่เป็นภาวะต้อกระจก </a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      
+      <a class="btn-getstarted" href="#diagnostics">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="hero-bg">
+        <img src="assets/img/hero-bg-light.webp" alt="">
+      </div>
+      <div class="container text-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <h1 data-aos="fade-up">ทำความรู้จักกับต้อกระจก (Cataract)</span></h1>
+          <p data-aos="fade-up" data-aos-delay="100" style="color: #ffffff;">
+           <br>
+          </p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#about" class="btn-get-started">Get Started</a>
+          </div>
+          <img src="assets/img/hero-services-img.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </section>
+    </main>
+    
+<!-- /Hero Section -->
+
+<section id="featured-services" class="featured-services section light-background">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-flower3"></i></div>
+          <div>
+            <h4 class="title"><a href="#1" class="stretched-link">พวกเราใช้ระบบปัญญาประดิษฐ์(Ai)</a></h4>
+            <p class="description" style="color: #ffffff;">ที่พัฒนามาตรวจสอบโรคต้อกระจก.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+          <div>
+            <h4 class="title"><a href="#1" class="stretched-link">สามารถตรวจสอบได้ที่บ้าน</a></h4>
+            <p class="description" style="color: #ffffff;">แค่ถ่ายรูปและตรวจเช็คผ่านระบบ.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-bounding-box"></i></div>
+          <div>
+            <h4 class="title"><a href="#1" class="stretched-link">มีเปอร์เซ็นและความแม่นยำ</a></h4>
+            <p class="description" style="color: #ffffff;">ที่สามารถตรวจสอบได้และสะดวกสบายมากยิ่งขึ้น.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Featured Services Section -->
+
+<!-- About Section -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            
+<p class="who-we-are" style="color: #ffffff;"></p>
+<h3>ภาวะต้อกระจก</h3>
+            <p class="fst-italic" style="color: #ffffff;" >
+              หลายคนคงเคยได้ยินชื่อภาวะต้อกระจกกันมาบ้าง และอาจสับสนกับภาวะต้อชนิดอื่น ๆ ทางตา รวมถึงกังวลถึงอันตรายและวิธีการรักษา บทความนี้จะพาทำความรู้จักกับต้อกระจก
+
+              ต้อกระจกเป็นภาวะการเปลี่ยนแปลงที่เกิดจากการขุ่นของเลนส์ตา โดยปกติเลนส์ตามีลักษณะใส ทำหน้าที่รวมแสงให้ตกลงบนจอประสาทตา ทำให้เกิดการมองเห็นภาพ เมื่อเกิดต้อกระจก จอประสาทตาจะรับแสงได้ไม่เต็มที่ ทำให้การมองเห็นผิดปกติไป อาจมีสายตาพร่ามัวเหมือนมองผ่านกระจกฝ้า ยิ่งเลนส์ตาขุ่นมากขึ้น การมองเห็นจะลดลงตามลำดับ ภาวะต้อกระจกเป็นภาวะซึ่งเกิดจากความเสื่อมตามวัย จึงพบได้บ่อยในผู้สูงอายุ
+            </p>
+            <a href="#features" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+          <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+                <img src="assets/img/about-company-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="row gy-4">
+                  <div class="col-lg-12">
+                    <img src="assets/img/about-company-2.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-12">
+                    <img src="assets/img/about-company-3.jpg" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Clients Section -->
+   
+    </section><!-- /Clients Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>สาเหตุและปัจจัยเสี่ยงของการเกิดต้อกระจก</h2>
+        <p style="color: #ffffff;"></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5 d-flex align-items-center">
+                <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+                    <li class="nav-item">
+                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                            <i class="bi bi-binoculars"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">อายุที่มากขึ้น คือสาเหตุหลักของโรคต้อกระจก</h4>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                            <i class="bi bi-box-seam"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">การได้รับแสงอัลตราไวโอเลตจากแสงแดดจัดเข้าตาเป็นเวลานาน ๆ</h4>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                            <i class="bi bi-brightness-high"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">อุบัติเหตุที่ดวงตา การกระทบกระเทือนอย่างรุนแรง โดนของมีคม สารเคมี หรือสารรังสี</h4>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+                            <i class="bi bi-box-seam"></i>
+                            <div>
+                                <h4 class="d-none d-lg-block">โรคตาหรือโรคทางร่างกายบางโรค เช่น การติดเชื้อ โรคเบาหวาน</h4>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="col-lg-6">
+                <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tab-pane fade active show" id="features-tab-1">
+                        <img src="png/old man.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="tab-pane fade" id="features-tab-2">
+                        <img src="png/front-view-human-eye.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="tab-pane fade" id="features-tab-3">
+                        <img src="png/asian-woman-patient-wearing-soft-splint-due-sore-arm-broken-head-isolated-white-background-personal-accident-insurance-concept.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="tab-pane fade" id="features-tab-4">
+                        <img src="png/front-view-diabetic-woman-checking-her-glucose-level.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="features-details" class="features-details section">
+      <div class="container">
+          <!-- First Features Item -->
+          <div class="row gy-4 justify-content-between features-item">
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                  <img src="png/eye-care-5016057_1280.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  <div class="content">
+                      <h3>อาการ</h3>
+                      <p style="color: #FFFFFF;">
+                          ตามัวหรือมองเห็นไม่ชัดเจน ลักษณะคล้ายมีฝ้าหมอกบัง มองเห็นภาพซ้อน หรือมีอาการสายตาสั้นมากขึ้นเรื่อยๆ เปลี่ยนแว่นตาบ่อย มองเห็นระยะใกล้ได้ดีขึ้น มองเห็นแสงไฟกระจาย โดยเฉพาะเวลาขณะขับรถในตอนกลางคืน สู้แสงสว่างไม่ได้ มองเห็นสีผิดเพี้ยนไปจากเดิม หากละเลยทิ้งไว้จนต้อกระจกสุกเกินไป อาจเกิดภาวะแทรกซ้อนได้ เช่น โรคต้อหิน การอักเสบภายในตา ซึ่งทำให้เกิดอาการปวดตา ตาแดง และอาจถึงขั้นสูญเสียการมองเห็นได้.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <!-- Second Features Item -->
+          <div class="row gy-4 justify-content-between features-item">
+              <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                  <div class="content">
+                      <h3>มาลองเช็คได้เลย ว่าคุณมีโอกาสเป็นโรคต้อกระจกหรือไม่</h3>
+                      <p style="color: #FFFFFF;">
+                          พัฒนาจากโรงเรียน สกลราชวิทยานุกูล
+                      </p>
+                      <ul>
+                          <li style="color: #FFFFFF;"><i class="bi bi-easel flex-shrink-0"></i> โดยการใช้ AI ในการตรวจสอบ</li>
+                          <li style="color: #FFFFFF;"><i class="bi bi-patch-check flex-shrink-0"></i> มีความแม่นยำ</li>
+                          <li style="color: #FFFFFF;"><i class="bi bi-brightness-high flex-shrink-0"></i> สามารถตรวจได้ที่บ้าน</li>
+                      </ul>
+                      <a href="#diagnostics" class="btn more-btn">เริ่มต้นการตรวจ</a>
+                  </div>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+                  <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+      </div>
+
+      <section id="diagnostics" class="diagnostics section">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <form id="diagnostic-form" data-aos="fade-up" data-aos-delay="100">
+                <div class="mb-3">
+                  <label for="symptoms" class="form-label">Symptoms</label>
+                  <textarea class="form-control" id="symptoms" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                  <label for="photo" class="form-label">Upload Photo</label>
+                  <input type="file" class="form-control" id="photo" accept="image/*">
+                  <video id="video" width="100%" height="auto" autoplay style="display:none;"></video>
+                  <canvas id="canvas" style="display:none;"></canvas>
+                  <button type="button" id="open-camera" class="btn btn-secondary mt-2">Open Camera</button>
+                  <button type="button" id="capture" class="btn btn-secondary mt-2" style="display:none;">Capture Photo</button>
+                </div>
+                <div class="mb-3">
+                  <button for="captured-image" href="eye1.html" class="btn btn-secondary mt-2">Captured Image</button>
+                  <img id="captured-image" style="display:none;" width="100%" />
+                </div>
+                <button type="submit" href="eye1.html" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      </main>
+      </section>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files --> 
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+document.getElementById('open-camera').addEventListener('click', function() {
+    const video = document.getElementById('video');
+    const captureButton = document.getElementById('capture');
+
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+            video.srcObject = stream;
+            video.style.display = 'block';
+            captureButton.style.display = 'block';
+        });
+    }
+});
+document.getElementById('capture').addEventListener('click', function() {
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const context = canvas.getContext('2d');
+    const capturedImage = document.getElementById('captured-image');
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+    const base64Image = canvas.toDataURL('image/jpeg');
+
+    const imageJson = JSON.stringify({ image: base64Image });
+
+    const blob = new Blob([imageJson], { type: 'application/json' });
+
+    const formData = new FormData();
+    formData.append('file', blob, 'photo.json');
+
+    fetch('/upload', {
+        method: 'POST',
+        body: formData
+    }).then(response => {
+        if (response.redirected) {
+            window.location.href = response.url;
+        } else {
+            return response.json();
+        }
+    }).then(data => {
+        console.log('Success:', data);
+    }).catch((error) => {
+        console.error('Error:', error);
+    });
+
+    capturedImage.src = base64Image;
+    capturedImage.style.display = 'block';
+
+    video.srcObject.getTracks().forEach(track => track.stop());
+    video.style.display = 'none';
+    canvas.style.display = 'none';
+    document.getElementById('capture').style.display = 'none';
+});
+
+
+</script>
+</script>
+
+</body>
+
+</html>
